@@ -1,6 +1,7 @@
 import example.Lists
 import example.NewtonSqrtApproximation
 import example.Evaluation
+import example.Factorial
 import scala.math._
 
 @main def run(): Unit =
@@ -12,10 +13,15 @@ import scala.math._
 //  println(NewtonSqrtApproximation.sqrt(x));
 //  println(sqrt(x))
 
-  def loop: Boolean = loop;
+//  def loop: Boolean = loop;
+//
+//  // endless loop
+//  println(Evaluation.and(false, loop))
+//
+//  // ok
+//  println(Evaluation.and2(false, loop))
 
-  // endless loop
-  println(Evaluation.and(false, loop))
+  def n = 5
 
-  // ok
-  println(Evaluation.and2(false, loop))
+  println(Factorial.factorial(n))
+  println(Factorial.tailRecFactorial(n))
