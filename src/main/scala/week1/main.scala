@@ -1,7 +1,7 @@
-import example.Lists
-import example.NewtonSqrtApproximation
-import example.Evaluation
-import example.Factorial
+import week1.Lists
+import week1.NewtonSqrtApproximation
+import week1.Evaluation
+import week1.Factorial
 import scala.math._
 
 @main def run(): Unit =

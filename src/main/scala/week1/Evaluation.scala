@@ -1,4 +1,4 @@
-package example
+package week1
 
 object Evaluation:
   // call-by-value
